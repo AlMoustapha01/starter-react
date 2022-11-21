@@ -28,29 +28,33 @@ More on [Vitest doc](https://vitest.dev/guide/)
 
 Inside that directory, you can run several commands:
 
+* Runs the end-to-end tests.
+
   ```bash
     yarn playwright test
   ```
-    Runs the end-to-end tests.
+* Runs the tests only on Desktop Chrome.
 
   ```bash
   yarn playwright test --project=chromium
    ```
-    Runs the tests only on Desktop Chrome.
+* Runs the tests in a specific file.
+
   ```bash
   yarn playwright test example
   ```
-    Runs the tests in a specific file.
+* Runs the tests in debug mode.
+
   ```bash
   yarn playwright test --debug
   ```
-    Runs the tests in debug mode.
+* Auto generate tests with Codegen.
+
   ```bash
   yarn playwright codegen
   ```
-    Auto generate tests with Codegen.
 
-We suggest that you begin by typing:
+* We suggest that you begin by typing:
     ```bash
     yarn playwright test
     ```
